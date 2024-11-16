@@ -9,7 +9,7 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 def extract_text_from_pdf(pdf_path, lang='mar'):
 
     # path to the Poppler binaries (update with your Poppler installation path)
-    poppler_path = r'C:\Users\HP\Downloads\Release-24.08.0-0\poppler-24.08.0\Library\bin'  # Update this path with your Poppler binary path
+    poppler_path = r'C:\Users\HP\Downloads\Release-24.08.0-0\poppler-24.08.0\Library\bin'
 
     try:
         # Convert PDF pages to images using the specified Poppler path
