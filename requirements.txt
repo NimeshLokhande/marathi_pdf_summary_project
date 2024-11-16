@@ -7,4 +7,3 @@ nltk
 pytesseract
 pdf2image
 PIL
-os
