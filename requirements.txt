@@ -1,0 +1,10 @@
+spaCy
+Flask~=3.1.0
+PyMuPDF
+indicnlp
+pdfminer
+nltk
+pytesseract
+pdf2image
+PIL
+os
