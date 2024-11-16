@@ -24,7 +24,10 @@ def upload_pdf():
     file_path = os.path.join(app.config['UPLOAD_FOLDER'], file.filename)
     file.save(file_path)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c3933b6215cdb0c0b76b9a5c8d030744867a7f08
     extracted_text = extract_text_from_pdf(file_path)
 
     summary = summarize_text(extracted_text)
@@ -34,7 +37,10 @@ def upload_pdf():
     print("Summary", summary)
     print("Keywords:", keywords)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> c3933b6215cdb0c0b76b9a5c8d030744867a7f08
     return render_template('index.html', summary=summary, keywords=keywords)
 
 
